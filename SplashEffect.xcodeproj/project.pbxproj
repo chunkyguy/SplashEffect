@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194FCA0715DBF57000AB6EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194FCA0615DBF57000AB6EEF /* Foundation.framework */; };
+		194FCA0A15DBF57000AB6EEF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 194FCA0915DBF57000AB6EEF /* main.cpp */; };
+		194FCA0C15DBF57000AB6EEF /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 194FCA0B15DBF57000AB6EEF /* ResourcePath.mm */; };
+		194FCA1015DBF57000AB6EEF /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA0F15DBF57000AB6EEF /* sansation.ttf */; };
+		194FCA1215DBF57000AB6EEF /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA1115DBF57000AB6EEF /* cute_image.jpg */; };
+		194FCA1415DBF57000AB6EEF /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA1315DBF57000AB6EEF /* nice_music.ogg */; };
+		194FCA1915DBF57000AB6EEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA1715DBF57000AB6EEF /* InfoPlist.strings */; };
+		194FCA2015DBF58E00AB6EEF /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194FCA1F15DBF58E00AB6EEF /* SFML.framework */; };
+		194FCA2315DBF78D00AB6EEF /* SplashWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 194FCA2115DBF78D00AB6EEF /* SplashWindow.cpp */; };
+		194FCA2515DBFB9000AB6EEF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194FCA2415DBFB9000AB6EEF /* OpenGL.framework */; };
+		194FCA2715DBFCF300AB6EEF /* splash.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA2615DBFCF300AB6EEF /* splash.vertsh */; };
+		194FCA2915DBFD0C00AB6EEF /* splash.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA2815DBFD0C00AB6EEF /* splash.fragsh */; };
+		195DAFC415DC9468009A9D2F /* particle.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = 195DAFC315DC9468009A9D2F /* particle.fragsh */; };
+		195DAFCB15DC98A7009A9D2F /* Particles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 195DAFC915DC98A7009A9D2F /* Particles.cpp */; };
+		195DAFCE15DC9DB5009A9D2F /* RenderObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 195DAFCC15DC9DB5009A9D2F /* RenderObject.cpp */; };
+		195DAFD015DCA2BE009A9D2F /* particle.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = 195DAFCF15DCA2BE009A9D2F /* particle.vertsh */; };
+		195DAFD615DCA76B009A9D2F /* Droplet.png in Resources */ = {isa = PBXBuildFile; fileRef = 195DAFD515DCA76B009A9D2F /* Droplet.png */; };
+		195DAFD715DCB17E009A9D2F /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 195DAFC515DC97F4009A9D2F /* Rectangle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		194FCA0215DBF57000AB6EEF /* SplashEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		194FCA0615DBF57000AB6EEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		194FCA0915DBF57000AB6EEF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		194FCA0B15DBF57000AB6EEF /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		194FCA0D15DBF57000AB6EEF /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		194FCA0F15DBF57000AB6EEF /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		194FCA1115DBF57000AB6EEF /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		194FCA1315DBF57000AB6EEF /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		194FCA1615DBF57000AB6EEF /* SplashEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplashEffect-Info.plist"; sourceTree = "<group>"; };
+		194FCA1815DBF57000AB6EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		194FCA1F15DBF58E00AB6EEF /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		194FCA2115DBF78D00AB6EEF /* SplashWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashWindow.cpp; sourceTree = "<group>"; };
+		194FCA2215DBF78D00AB6EEF /* SplashWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashWindow.h; sourceTree = "<group>"; };
+		194FCA2415DBFB9000AB6EEF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		194FCA2615DBFCF300AB6EEF /* splash.vertsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = splash.vertsh; sourceTree = "<group>"; };
+		194FCA2815DBFD0C00AB6EEF /* splash.fragsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = splash.fragsh; sourceTree = "<group>"; };
+		195DAFC315DC9468009A9D2F /* particle.fragsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = particle.fragsh; sourceTree = "<group>"; };
+		195DAFC515DC97F4009A9D2F /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		195DAFC615DC97F4009A9D2F /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		195DAFC815DC982B009A9D2F /* stdArgs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdArgs.h; sourceTree = "<group>"; };
+		195DAFC915DC98A7009A9D2F /* Particles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particles.cpp; sourceTree = "<group>"; };
+		195DAFCA15DC98A7009A9D2F /* Particles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particles.h; sourceTree = "<group>"; };
+		195DAFCC15DC9DB5009A9D2F /* RenderObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderObject.cpp; sourceTree = "<group>"; };
+		195DAFCD15DC9DB5009A9D2F /* RenderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderObject.h; sourceTree = "<group>"; };
+		195DAFCF15DCA2BE009A9D2F /* particle.vertsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = particle.vertsh; sourceTree = "<group>"; };
+		195DAFD515DCA76B009A9D2F /* Droplet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Droplet.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194FC9FF15DBF57000AB6EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194FCA2515DBFB9000AB6EEF /* OpenGL.framework in Frameworks */,
+				194FCA2015DBF58E00AB6EEF /* SFML.framework in Frameworks */,
+				194FCA0715DBF57000AB6EEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194FC9F615DBF57000AB6EEF = {
+			isa = PBXGroup;
+			children = (
+				194FCA2415DBFB9000AB6EEF /* OpenGL.framework */,
+				194FCA1F15DBF58E00AB6EEF /* SFML.framework */,
+				194FCA0815DBF57000AB6EEF /* SplashEffect */,
+				194FCA0515DBF57000AB6EEF /* Frameworks */,
+				194FCA0315DBF57000AB6EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		194FCA0315DBF57000AB6EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194FCA0215DBF57000AB6EEF /* SplashEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194FCA0515DBF57000AB6EEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194FCA0615DBF57000AB6EEF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		194FCA0815DBF57000AB6EEF /* SplashEffect */ = {
+			isa = PBXGroup;
+			children = (
+				195DAFC815DC982B009A9D2F /* stdArgs.h */,
+				194FCA0915DBF57000AB6EEF /* main.cpp */,
+				194FCA0B15DBF57000AB6EEF /* ResourcePath.mm */,
+				194FCA0D15DBF57000AB6EEF /* ResourcePath.hpp */,
+				194FCA2115DBF78D00AB6EEF /* SplashWindow.cpp */,
+				194FCA2215DBF78D00AB6EEF /* SplashWindow.h */,
+				195DAFCC15DC9DB5009A9D2F /* RenderObject.cpp */,
+				195DAFCD15DC9DB5009A9D2F /* RenderObject.h */,
+				195DAFC515DC97F4009A9D2F /* Rectangle.cpp */,
+				195DAFC615DC97F4009A9D2F /* Rectangle.h */,
+				195DAFC915DC98A7009A9D2F /* Particles.cpp */,
+				195DAFCA15DC98A7009A9D2F /* Particles.h */,
+				194FCA2615DBFCF300AB6EEF /* splash.vertsh */,
+				194FCA2815DBFD0C00AB6EEF /* splash.fragsh */,
+				195DAFC315DC9468009A9D2F /* particle.fragsh */,
+				195DAFCF15DCA2BE009A9D2F /* particle.vertsh */,
+				194FCA0E15DBF57000AB6EEF /* Resources */,
+				194FCA1515DBF57000AB6EEF /* Supporting Files */,
+			);
+			path = SplashEffect;
+			sourceTree = "<group>";
+		};
+		194FCA0E15DBF57000AB6EEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				195DAFD515DCA76B009A9D2F /* Droplet.png */,
+				194FCA0F15DBF57000AB6EEF /* sansation.ttf */,
+				194FCA1115DBF57000AB6EEF /* cute_image.jpg */,
+				194FCA1315DBF57000AB6EEF /* nice_music.ogg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		194FCA1515DBF57000AB6EEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				194FCA1615DBF57000AB6EEF /* SplashEffect-Info.plist */,
+				194FCA1715DBF57000AB6EEF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		194FCA0115DBF57000AB6EEF /* SplashEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194FCA1C15DBF57000AB6EEF /* Build configuration list for PBXNativeTarget "SplashEffect" */;
+			buildPhases = (
+				194FC9FD15DBF57000AB6EEF /* ShellScript */,
+				194FC9FE15DBF57000AB6EEF /* Sources */,
+				194FC9FF15DBF57000AB6EEF /* Frameworks */,
+				194FCA0015DBF57000AB6EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplashEffect;
+			productName = SplashEffect;
+			productReference = 194FCA0215DBF57000AB6EEF /* SplashEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194FC9F815DBF57000AB6EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = whackylabs;
+			};
+			buildConfigurationList = 194FC9FB15DBF57000AB6EEF /* Build configuration list for PBXProject "SplashEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 194FC9F615DBF57000AB6EEF;
+			productRefGroup = 194FCA0315DBF57000AB6EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194FCA0115DBF57000AB6EEF /* SplashEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194FCA0015DBF57000AB6EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194FCA1015DBF57000AB6EEF /* sansation.ttf in Resources */,
+				194FCA1215DBF57000AB6EEF /* cute_image.jpg in Resources */,
+				194FCA1415DBF57000AB6EEF /* nice_music.ogg in Resources */,
+				194FCA1915DBF57000AB6EEF /* InfoPlist.strings in Resources */,
+				194FCA2715DBFCF300AB6EEF /* splash.vertsh in Resources */,
+				194FCA2915DBFD0C00AB6EEF /* splash.fragsh in Resources */,
+				195DAFC415DC9468009A9D2F /* particle.fragsh in Resources */,
+				195DAFD015DCA2BE009A9D2F /* particle.vertsh in Resources */,
+				195DAFD615DCA76B009A9D2F /* Droplet.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		194FC9FD15DBF57000AB6EEF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\nif [ $SFML_LINK_PREFIX = $SFML_LINK_FRAMEWORKS_PREFIX ]\nthen\n    frameworks=1\nelse\n    frameworks=0\nfi\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\n    \n    if [ -z $1 ]\n    then\n        echo \"no parameter! ERROR!\"\n        exit\n    else\n        # clean potentially old stuff\n        rm -f $dest/libsfml-$1.2.dylib\n        rm -f $dest/libsfml-$1-d.2.dylib\n        rm -fr $dest/sfml-$1.framework\n    \n        # copy SFML libraries\n        if [ $frameworks ]\n        then\n            ditto \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ $CONFIGURATION = \"Debug\" ]\n        then\n            ditto \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            ditto \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n        \n        if [ $1 = \"audio\" ]\n        then\n            # copy sndfile framework too\n            ditto \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194FC9FE15DBF57000AB6EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195DAFD715DCB17E009A9D2F /* Rectangle.cpp in Sources */,
+				194FCA0A15DBF57000AB6EEF /* main.cpp in Sources */,
+				194FCA0C15DBF57000AB6EEF /* ResourcePath.mm in Sources */,
+				194FCA2315DBF78D00AB6EEF /* SplashWindow.cpp in Sources */,
+				195DAFCB15DC98A7009A9D2F /* Particles.cpp in Sources */,
+				195DAFCE15DC9DB5009A9D2F /* RenderObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		194FCA1715DBF57000AB6EEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				194FCA1815DBF57000AB6EEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		194FCA1A15DBF57000AB6EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = "";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				"OTHER_LDFLAGS[arch=*]" = "$(OTHER_LDFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "-d";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_FRAMEWORKS_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_FRAMEWORKS_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
+			};
+			name = Debug;
+		};
+		194FCA1B15DBF57000AB6EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = "";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_FRAMEWORKS_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_FRAMEWORKS_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
+			};
+			name = Release;
+		};
+		194FCA1D15DBF57000AB6EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SplashEffect/SplashEffect-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		194FCA1E15DBF57000AB6EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SplashEffect/SplashEffect-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194FC9FB15DBF57000AB6EEF /* Build configuration list for PBXProject "SplashEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194FCA1A15DBF57000AB6EEF /* Debug */,
+				194FCA1B15DBF57000AB6EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		194FCA1C15DBF57000AB6EEF /* Build configuration list for PBXNativeTarget "SplashEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194FCA1D15DBF57000AB6EEF /* Debug */,
+				194FCA1E15DBF57000AB6EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194FC9F815DBF57000AB6EEF /* Project object */;
+}

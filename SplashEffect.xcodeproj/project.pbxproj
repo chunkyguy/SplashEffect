@@ -14,7 +14,6 @@
 		194FCA1215DBF57000AB6EEF /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA1115DBF57000AB6EEF /* cute_image.jpg */; };
 		194FCA1415DBF57000AB6EEF /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA1315DBF57000AB6EEF /* nice_music.ogg */; };
 		194FCA1915DBF57000AB6EEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA1715DBF57000AB6EEF /* InfoPlist.strings */; };
-		194FCA2015DBF58E00AB6EEF /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194FCA1F15DBF58E00AB6EEF /* SFML.framework */; };
 		194FCA2315DBF78D00AB6EEF /* SplashWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 194FCA2115DBF78D00AB6EEF /* SplashWindow.cpp */; };
 		194FCA2515DBFB9000AB6EEF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194FCA2415DBFB9000AB6EEF /* OpenGL.framework */; };
 		194FCA2715DBFCF300AB6EEF /* splash.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = 194FCA2615DBFCF300AB6EEF /* splash.vertsh */; };
@@ -25,7 +24,35 @@
 		195DAFD015DCA2BE009A9D2F /* particle.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = 195DAFCF15DCA2BE009A9D2F /* particle.vertsh */; };
 		195DAFD615DCA76B009A9D2F /* Droplet.png in Resources */ = {isa = PBXBuildFile; fileRef = 195DAFD515DCA76B009A9D2F /* Droplet.png */; };
 		195DAFD715DCB17E009A9D2F /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 195DAFC515DC97F4009A9D2F /* Rectangle.cpp */; };
+		797D8C422500541600704EFA /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D8C3D2500541600704EFA /* libsfml-window.2.5.1.dylib */; };
+		797D8C432500541600704EFA /* libsfml-window.2.5.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 797D8C3D2500541600704EFA /* libsfml-window.2.5.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		797D8C442500541600704EFA /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D8C3E2500541600704EFA /* libsfml-graphics.2.5.1.dylib */; };
+		797D8C452500541600704EFA /* libsfml-graphics.2.5.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 797D8C3E2500541600704EFA /* libsfml-graphics.2.5.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		797D8C462500541600704EFA /* libsfml-network.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D8C3F2500541600704EFA /* libsfml-network.2.5.1.dylib */; };
+		797D8C472500541600704EFA /* libsfml-network.2.5.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 797D8C3F2500541600704EFA /* libsfml-network.2.5.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		797D8C482500541600704EFA /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D8C402500541600704EFA /* libsfml-system.2.5.1.dylib */; };
+		797D8C492500541600704EFA /* libsfml-system.2.5.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 797D8C402500541600704EFA /* libsfml-system.2.5.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		797D8C4A2500541600704EFA /* libsfml-audio.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D8C412500541600704EFA /* libsfml-audio.2.5.1.dylib */; };
+		797D8C4B2500541600704EFA /* libsfml-audio.2.5.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 797D8C412500541600704EFA /* libsfml-audio.2.5.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		797D8C38250050B000704EFA /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				797D8C472500541600704EFA /* libsfml-network.2.5.1.dylib in Embed Libraries */,
+				797D8C492500541600704EFA /* libsfml-system.2.5.1.dylib in Embed Libraries */,
+				797D8C432500541600704EFA /* libsfml-window.2.5.1.dylib in Embed Libraries */,
+				797D8C452500541600704EFA /* libsfml-graphics.2.5.1.dylib in Embed Libraries */,
+				797D8C4B2500541600704EFA /* libsfml-audio.2.5.1.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		194FCA0215DBF57000AB6EEF /* SplashEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +65,6 @@
 		194FCA1315DBF57000AB6EEF /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		194FCA1615DBF57000AB6EEF /* SplashEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplashEffect-Info.plist"; sourceTree = "<group>"; };
 		194FCA1815DBF57000AB6EEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		194FCA1F15DBF58E00AB6EEF /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
 		194FCA2115DBF78D00AB6EEF /* SplashWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashWindow.cpp; sourceTree = "<group>"; };
 		194FCA2215DBF78D00AB6EEF /* SplashWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashWindow.h; sourceTree = "<group>"; };
 		194FCA2415DBFB9000AB6EEF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -54,6 +80,17 @@
 		195DAFCD15DC9DB5009A9D2F /* RenderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderObject.h; sourceTree = "<group>"; };
 		195DAFCF15DCA2BE009A9D2F /* particle.vertsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = particle.vertsh; sourceTree = "<group>"; };
 		195DAFD515DCA76B009A9D2F /* Droplet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Droplet.png; sourceTree = "<group>"; };
+		797D8C2825004EDD00704EFA /* libsfml-network.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.5.1.dylib"; path = "Externals/SFML/lib/libsfml-network.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C2925004EDD00704EFA /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "Externals/SFML/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C2A25004EDD00704EFA /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "Externals/SFML/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C2B25004EDD00704EFA /* libsfml-audio.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.5.1.dylib"; path = "Externals/SFML/lib/libsfml-audio.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C2C25004EDD00704EFA /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "Externals/SFML/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C3D2500541600704EFA /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C3E2500541600704EFA /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C3F2500541600704EFA /* libsfml-network.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.5.1.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-network.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C402500541600704EFA /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C412500541600704EFA /* libsfml-audio.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.5.1.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-audio.2.5.1.dylib"; sourceTree = "<group>"; };
+		797D8C4C2500546300704EFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +98,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797D8C422500541600704EFA /* libsfml-window.2.5.1.dylib in Frameworks */,
+				797D8C4A2500541600704EFA /* libsfml-audio.2.5.1.dylib in Frameworks */,
+				797D8C462500541600704EFA /* libsfml-network.2.5.1.dylib in Frameworks */,
 				194FCA2515DBFB9000AB6EEF /* OpenGL.framework in Frameworks */,
-				194FCA2015DBF58E00AB6EEF /* SFML.framework in Frameworks */,
+				797D8C482500541600704EFA /* libsfml-system.2.5.1.dylib in Frameworks */,
 				194FCA0715DBF57000AB6EEF /* Foundation.framework in Frameworks */,
+				797D8C442500541600704EFA /* libsfml-graphics.2.5.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,8 +114,8 @@
 		194FC9F615DBF57000AB6EEF = {
 			isa = PBXGroup;
 			children = (
+				797D8C4C2500546300704EFA /* README.md */,
 				194FCA2415DBFB9000AB6EEF /* OpenGL.framework */,
-				194FCA1F15DBF58E00AB6EEF /* SFML.framework */,
 				194FCA0815DBF57000AB6EEF /* SplashEffect */,
 				194FCA0515DBF57000AB6EEF /* Frameworks */,
 				194FCA0315DBF57000AB6EEF /* Products */,
@@ -92,6 +133,16 @@
 		194FCA0515DBF57000AB6EEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				797D8C2B25004EDD00704EFA /* libsfml-audio.2.5.1.dylib */,
+				797D8C412500541600704EFA /* libsfml-audio.2.5.1.dylib */,
+				797D8C2A25004EDD00704EFA /* libsfml-graphics.2.5.1.dylib */,
+				797D8C2825004EDD00704EFA /* libsfml-network.2.5.1.dylib */,
+				797D8C2925004EDD00704EFA /* libsfml-system.2.5.1.dylib */,
+				797D8C3E2500541600704EFA /* libsfml-graphics.2.5.1.dylib */,
+				797D8C3F2500541600704EFA /* libsfml-network.2.5.1.dylib */,
+				797D8C402500541600704EFA /* libsfml-system.2.5.1.dylib */,
+				797D8C2C25004EDD00704EFA /* libsfml-window.2.5.1.dylib */,
+				797D8C3D2500541600704EFA /* libsfml-window.2.5.1.dylib */,
 				194FCA0615DBF57000AB6EEF /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -149,10 +200,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 194FCA1C15DBF57000AB6EEF /* Build configuration list for PBXNativeTarget "SplashEffect" */;
 			buildPhases = (
-				194FC9FD15DBF57000AB6EEF /* ShellScript */,
 				194FC9FE15DBF57000AB6EEF /* Sources */,
 				194FC9FF15DBF57000AB6EEF /* Frameworks */,
 				194FCA0015DBF57000AB6EEF /* Resources */,
+				797D8C38250050B000704EFA /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -177,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 194FC9F615DBF57000AB6EEF;
@@ -207,22 +259,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		194FC9FD15DBF57000AB6EEF /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\nif [ $SFML_LINK_PREFIX = $SFML_LINK_FRAMEWORKS_PREFIX ]\nthen\n    frameworks=1\nelse\n    frameworks=0\nfi\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\n    \n    if [ -z $1 ]\n    then\n        echo \"no parameter! ERROR!\"\n        exit\n    else\n        # clean potentially old stuff\n        rm -f $dest/libsfml-$1.2.dylib\n        rm -f $dest/libsfml-$1-d.2.dylib\n        rm -fr $dest/sfml-$1.framework\n    \n        # copy SFML libraries\n        if [ $frameworks ]\n        then\n            ditto \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ $CONFIGURATION = \"Debug\" ]\n        then\n            ditto \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            ditto \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n        \n        if [ $1 = \"audio\" ]\n        then\n            # copy sndfile framework too\n            ditto \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\t\t\t\t\t";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		194FC9FE15DBF57000AB6EEF /* Sources */ = {
@@ -264,7 +300,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -278,27 +313,8 @@
 				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(OTHER_LDFLAGS)",
-					"$(SFML_SYSTEM)",
-					"$(SFML_WINDOW)",
-					"$(SFML_GRAPHICS)",
-					"$(SFML_AUDIO)",
-					"$(SFML_NETWORK)",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
-				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
-				SFML_LINK_DYLIBS_PREFIX = "-l";
-				SFML_LINK_DYLIBS_SUFFIX = "-d";
-				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
-				SFML_LINK_FRAMEWORKS_SUFFIX = "";
-				SFML_LINK_PREFIX = "$(SFML_LINK_FRAMEWORKS_PREFIX)";
-				SFML_LINK_SUFFIX = "$(SFML_LINK_FRAMEWORKS_SUFFIX)";
-				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
-				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
-				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
 			};
 			name = Debug;
 		};
@@ -314,34 +330,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				OTHER_LDFLAGS = (
-					"$(OTHER_LDFLAGS)",
-					"$(SFML_SYSTEM)",
-					"$(SFML_WINDOW)",
-					"$(SFML_GRAPHICS)",
-					"$(SFML_AUDIO)",
-					"$(SFML_NETWORK)",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
-				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
-				SFML_LINK_DYLIBS_PREFIX = "-l";
-				SFML_LINK_DYLIBS_SUFFIX = "";
-				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
-				SFML_LINK_FRAMEWORKS_SUFFIX = "";
-				SFML_LINK_PREFIX = "$(SFML_LINK_FRAMEWORKS_PREFIX)";
-				SFML_LINK_SUFFIX = "$(SFML_LINK_FRAMEWORKS_SUFFIX)";
-				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
-				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
-				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
 			};
 			name = Release;
 		};
@@ -350,17 +346,19 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					/usr/local/Cellar/sfml/2.5.1/include,
+				);
 				INFOPLIST_FILE = "SplashEffect/SplashEffect-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.5.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
-				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
-				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
-				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
-				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -370,16 +368,18 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					/usr/local/Cellar/sfml/2.5.1/include,
+				);
 				INFOPLIST_FILE = "SplashEffect/SplashEffect-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.5.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
-				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
-				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
-				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
-				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
